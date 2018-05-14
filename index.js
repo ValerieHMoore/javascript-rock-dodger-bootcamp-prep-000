@@ -132,7 +132,7 @@ alert("YOU LOSE!")
 }
 
 function moveDodger(e) {
-  window.addEventListener('keydown', function(e){
+  //window.addEventListener('keydown', function(e){
     //if ([LEFT_ARROW,RIGHT_ARROW].indexOf(e.which)>-1){
       //e.preventDefault()
       //e.stopPropagation()
@@ -146,7 +146,7 @@ function moveDodger(e) {
       e.stopPropagation()
       moveDodgerRight()
     }
-  })
+  //})
   }
 
 
