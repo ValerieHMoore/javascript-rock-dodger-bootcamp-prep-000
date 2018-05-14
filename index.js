@@ -133,10 +133,10 @@ alert("YOU LOSE!")
 
 function moveDodger(e) {
   window.addEventListener('keydown', function(e){
-    if ([LEFT_ARROW,RIGHT_ARROW].indexOf(e.which)>-1){
-      e.preventDefault()
-      e.stopPropagation()
-    }
+    //if ([LEFT_ARROW,RIGHT_ARROW].indexOf(e.which)>-1){
+      //e.preventDefault()
+      //e.stopPropagation()
+    //}
     if (e.which === LEFT_ARROW){
       moveDodgerLeft()
     } else if (e.which === RIGHT_ARROW){
