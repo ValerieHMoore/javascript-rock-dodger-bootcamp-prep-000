@@ -176,10 +176,10 @@ window.requestAnimationFrame(step)
 }
 
 function moveDodgerRight() {
-  var right = 40
+  var left = DODGER.style.left
   function step() {
-  DODGER.style.right = `${right += 4}px`
-  if (right < 400) {
+  DODGER.style.left = `${left += 4}px`
+  if (left < 360) {
   window.requestAnimationFrame(step)
   }
 }
