@@ -88,15 +88,15 @@ function createRock(x) {
      * we should call endGame()
      */
 
-    if (checkCollision(rock)) {
-      endGame()
+  if (checkCollision(rock)) {
+    endGame()
     /**
     * Otherwise, if the rock hasn't reached the bottom of
     * the GAME, we want to move it again.
     */
-    } else if (top === 380) {
-      rock.remove();
-    } else {
+  } else if (top === 380) {
+    rock.remove();
+  } else {
     moveRock()  
 }
     /**
