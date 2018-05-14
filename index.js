@@ -160,7 +160,7 @@ function moveDodger(e) {
    */
 
 function moveDodgerLeft() {
-  var left = 360
+  var left = positionToInteger(DODGER.style.left)
   function step() {
     DODGER.style.left = `${left -= 4}px`
     if (left > 0) {
